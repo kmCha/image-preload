@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>image-preload</title>
+</head>
+<body>
+	<button>点我加载图片</button>
+	<script type="text/javascript" src="../src/image-preload.js"></script>
+	<script type="text/javascript">
+	window.onload = function() {
+		var img = createPreloadImage();
+		document.getElementsByTagName("button")[0].onclick = function() {
+			img.setSrc("http://7xoxzw.com1.z0.glb.clouddn.com/15-12-13/22567280.jpg");
+		};
+	};
+	</script>
+</body>
+</html>

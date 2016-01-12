@@ -1,0 +1,31 @@
+{
+  "name": "image-preload",
+  "version": "1.0.0",
+  "description": "图片预加载",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmCha/image-preload.git"
+  },
+  "keywords": [
+    "preload"
+  ],
+  "author": "kMchA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmCha/image-preload/issues"
+  },
+  "homepage": "https://github.com/kmCha/image-preload#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "del": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  }
+}
